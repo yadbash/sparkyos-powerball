@@ -7,7 +7,7 @@ Files are copied to /opt/yadbash/powerball/  & Owner is: the-user-name - NOT roo
         unzip sparky-powerball-master.zip to directory
         cd (to that directory where sparky-powerball-master files have been unzipped to)
         sudo mkdir /opt/yadbash
-        sudo chown -R username:user-group  (for example: sudo chown -R bobby:bobby /opt/yadbash )
+        sudo chown -R username:user-group /opt/yadbash (for example: sudo chown -R bobby:bobby /opt/yadbash )
         mkdir /opt/yadbash/powerball
         cp -R * /opt/yadbash/powerball
         cd /opt/yadbash/powerball
