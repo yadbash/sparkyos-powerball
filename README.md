@@ -24,8 +24,14 @@ Files are copied to /opt/yadbash/powerball/  & Owner is: the-user-name - NOT roo
 Must be using Linux GNU with Yad Gui 0.40+ with Gtk-2.0+ desktop environment
 nvironment.
 
+A 2nd copy of yad name yad2 must be duplicated in /usr/bin 
+
+    cd /usr/bin
+    sudo cp yad /usr/bin/yad2
+
+
 Built on SparkyLinux 4 (Debian Stretch) Openbox File Manager. Tested on SparkyLinux 5 (Debian Buster) too.
 
-Todo: Build installer
+Todo: Build yad installer to fully automate install - run on user computer.
 
 
